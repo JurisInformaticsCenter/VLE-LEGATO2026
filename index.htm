@@ -21,7 +21,7 @@ adjSpeed = .4;
     <div class="yui3-u-1-3">
       <div class="content">
         <div class="logo">
-          <h1><img src="index_files/logo2.png" alt="NLL2FR" width="200" height="50"></h1>
+          <h1><img src="index_files/logo2.png" alt="NLL2FR" width="200" height="150"></h1>
           </div>
         
         <!-- メニューエリア：追加削除は<li></li>修正 -->
@@ -85,15 +85,15 @@ new TWTR.Widget({
 
 <div class="yui3-u-2-3 main">
 	<div class="content">
-       	<h1>International Workshop on Translating Natural Legal Language into Formal Representation<br>
-       	   (NLL2FR 2025)<br>
-		<a href="https://jurix2025.di.unito.it/"><font size="+2">associated with JURIX 2025 </font><br></a>
+       	<h1>International Workshop on Verifying Law and Ethics, and Legal Autoformalisation<br>
+       	   (VLE-LEGATO 2025)<br>
+		<a href="https://www.irit.fr/jurix2026/"><font size="+2">associated with JURIX 2026 </font><br></a>
 		</h1>
 		<br>
-        	<p>  December 9, 2025</p>
-          <p><a href="https://jurix2025.di.unito.it/venues">Palazzo del Rettorato, Torino, Italy</a>
+        	<p>  December 8, 2026</p>
+          <p><a href="https://www.irit.fr/jurix2026/venues">Toulouse, France</a>
 
-
+<!--
 <div class="block" id="New Information">
 <h2>New Information</h2>
 <font color="red">
@@ -139,7 +139,7 @@ new TWTR.Widget({
 	</p>
 
 </div>	
-<!--
+
 The proceedings of NLL2FR 2025 are now available and can be downloaded here: <a href="https://jurisinformaticscenter.github.io/NLL2FR2025/NLL2FR2025proceedings.pdf">https://github.com/JurisInformaticsCenter/NLL2FR2025/blob/main/NLL2FR2025proceedings.pdf</a>.<br> 
 ISBN for the local proceedings is 978-4-915905-96-4
 <font color="red">
@@ -174,27 +174,58 @@ We put summary slides for COLIEE 2024 <a href="#COLIEE">here</a>.
 <br>
 </div>
 -->
-<div class="block" id="Aims and Scope">
 
-              <h2>Aims and Scope</h2>
+<div class="block" id="About the VLE-LEGATO workshop">
+
+              <h2>About the VLE-LEGATO workshop</h2>
 
 <p>
-As legal systems increasingly intersect with digital technologies, the formal representation of legal norms has become essential. Structured knowledge representation provides a rigorous foundation for modeling legal reasoning and supports practical applications such as automated compliance checking, legal advisory tools, and normative reasoning in autonomous systems like self-driving cars and AI-driven legal decision-making.
-
-While many rigorous frameworks for legal knowledge representation and reasoning have shown great potential, they often assume that legal knowledge can already be expressed in formal languages. In reality, however, most legal rules and case descriptions are written in natural language, creating a significant gap between natural legal language and formal representations.
-
-Recent advances in natural language processing—particularly those driven by large language models—have led to promising applications in AI and Law, including legal information retrieval, summarization, and information extraction.
-
-NLL2FR2025 aims to bring together researchers and practitioners interested in bridging this gap between natural legal language and formal representations. Our interest extends beyond the translation of natural language rules into logical formulae to include the formalization of legal cases described in natural language.
+The Workshop on Verifying Law and Ethics, and Legal Autoformalisation (VLE-LEGATO) will be held at JURIX 2026 on December 8th 2026, in Toulouse, France. 
+It aims at bringing together research on the lifecycle of normative AI through two complementary tracks: LEGATO, focusing on norm extraction, autoformalisation, and validation; and VLE, focusing on norm integration, compliance verification, auditing, and certification. 
+Together, VLE-LEGATO connects faithful normative representations with AI systems that comply with legal, ethical, regulatory, and other normative requirements.
 </p>
 </div>
 
 <div class="block" id="Important">
 	<h2>Important Dates</h2>
-	<strong>Workshop: December 9, 2025</strong><br><br>
-Submission Deadline: 10 November, 2025<br>
-Notification: <s style="color:#6c757d;">17 November, 2025</s> 24 November, 2025<br>
-Camera-ready due: <s style="color:#6c757d;">24 November, 2025</s> 28 November, 2025<br>
+	<strong>Workshop contribution submission deadline: November 1st, 2026 (AoE)</strong><br><br>
+Notification to contributors: November 13th, 2026 (AoE)<br>
+Camera-ready deadline: November 27th, 2026 (AoE)<br>
+Workshop date: December 8th, 2026 (Toulouse, France)<br>
+			
+<div class="block" id="Aims and Scope">
+
+<h2>Aims and Scope</h2>
+
+<p>
+AI systems are increasingly deployed in contexts where their behaviour should be constrained not only by technical requirements but also by laws, regulations, standards, ethical principles, organisational policies, and social norms. 
+Ensuring that such systems behave in accordance with these norms raises fundamental challenges across the entire AI lifecycle. The workshop addresses three interconnected questions: (1) How can norms be extracted, formalised, and represented faithfully? (2) How can they be incorporated into AI systems’ reasoning and decision-making? (3) How can compliance with them be verified, audited, and certified?
+</p>
+
+<p>
+Recent advances in NLP and LLMs create new opportunities for automatically transforming normative texts into formal representations. 
+However, a syntactically valid representation may omit relevant conditions, misrepresent exceptions, or introduce unintended interpretations. 
+Establishing the faithfulness of formalised norms is therefore an essential foundation for assessing the compliance of systems that use them. 
+Integrating these representations into AI systems introduces further challenges concerning normative reasoning, conflicts between requirements, system behaviour, and human oversight.
+</p>
+	
+<p>VLE-LEGATO will address these complementary challenges through two tracks:</p>
+<ul>
+<li>
+<p>
+<b>LEGATO Track:</b> Autoformalisation and Validation of Norms. This track focuses on extracting norms from natural-language and other sources, generating formal representations, and assessing whether those representations faithfully capture the relevant normative meaning and inferential behaviour. It also addresses benchmarking, debugging, human feedback, and the maintenance of normative knowledge, with particular attention to legal autoformalisation.</p>
+</li>
+<li><p><b>VLE Track:</b> Verification of Legal and Ethical Compliance. This track focuses on incorporating norms into AI architectures, reasoning, and decision-making, and on verifying, auditing, and certifying system compliance. It also addresses conflicts between legal and ethical requirements, compliance monitoring, and governance.</p>
+</li>
+</ul>
+<p>Contributions spanning both tracks are particularly welcome, including methods that connect the validation of normative representations with the verification of system behaviour.</p>
+</div>
+
+
+	
+
+
+	
 <!--
 October 12, 2024 (<a href="http://www.worldtimeserver.com/time-zones/aoe/"> AOE </a>, <font color="red"> extended!!</font>)<br>
 -->
@@ -210,28 +241,15 @@ October 12, 2024 (<a href="http://www.worldtimeserver.com/time-zones/aoe/"> AOE 
 <s>20th</s> 25th February : final notification<br>
 <s>28th</s> 5th March : camera-ready due<br>
 </p></div>
--->
+
 
 <div class="block" id="Registration">
           <h2>Registration</h2>
 <p>Please register for the workshop via the <a href="https://jurix2025.di.unito.it/registration">registration page</a> of the JURIX 2025 conference.</p>
 </div>
 
+-->
 
-<div class="block" id="Topics">
-	<h2>Topics</h2>
-
-          <p>Relevant topics include, but are not limited to, the following:</p>
-          <ul>
-            <li>Translating natural language rules into logical representations</li>
-            <li>Constructing legal ontologies from natural language documents</li>
-            <li>Extracting legal factors from case texts</li>
-            <li>Extracting and structuring argumentation from natural language sources</li>
-			<li>Reusable outputs, including formalization tools, logic patterns, or shared datasets</li>
-			<li>Verification and validation of formal legal representations in practice</li>
-            <li>Any theories and technologies which is not directly 
-related with the workshop but has a potential to contribute to the workshop</li>
-	  </ul>
 </div>
 
 <div class="block" id="Invited">
@@ -330,7 +348,7 @@ The selected papers of the previous workshops were published in <a href="https:/
 <a href="http://link.springer.com/book/10.1007/978-3-662-48119-6">LNAI10247(JURISIN2016)</a>,
 <a href="http://link.springer.com/book/10.1007/978-3-662-48119-6">LNAI10838(JURISIN2017)</a>,
 <a href="https://link.springer.com/book/10.1007%2F978-3-030-31605-1">LNAI11717(JURISIN2018)</a>, and LNAI12331 (JURISIN2019).
--->
+
 </div> 
 <div class="block" id="Programme">
     <span style="line-height:18px;">
@@ -394,7 +412,7 @@ May Myo Zin, Sabine Wehnert, <b>Yuntao Kong</b>, Ha Thanh Nguyen, Wachara Fungwa
 <b>Giovanni Sileno</b> and Andrea Marino<br><br>
 </div>
 	
-<!--
+
 <tr><td>
 May 28, 2024 (Tuesday)
 <br><br>
@@ -500,16 +518,73 @@ Masaki Fujita, Takaaki Onaga and Yoshinobu Kano
 <br><br>
 </div>
 -->
+
+<div class="block" id="Topics">
+    <h2>Topics of Interest</h2>
+    <h3><b>LEGATO Track:</b> Autoformalisation and Validation of Norms</h3>
+<ul>
+<li>Automatic and semi-automatic extraction, formalisation, and representation of norms from statutes, regulations, contracts, judgments, policies, and other sources</li>
+<li>LLM-based, neuro-symbolic, rule-based, and ontology-based approaches to normative representation</li>
+<li>Validation of source faithfulness, including conditions, exceptions, cross-references, and temporal scope</li>
+<li>Semantic and behavioural equivalence of alternative normative representations</li>
+<li>Testing, counterexample generation, and debugging of generated formal representations</li>
+<li>Ambiguity, uncertainty, implicit assumptions, and alternative normative interpretations</li>
+<li>Human-in-the-loop workflows, interfaces, and expert feedback</li>
+<li>Datasets, shared tasks, benchmarks, evaluation metrics, and reproducibility</li>
+<li>Traceability, versioning, maintenance, and governance of normative knowledge</li>
+</ul>
+
+<h3><b>VLE Track:</b> Verification of Legal and Ethical Compliance</h3>
+<ul>
+<li>Normative reasoning, including obligations, permissions, prohibitions, exceptions, and conflicts</li>
+<li>Integration of legal and ethical norms into AI decision-making, world models, and autonomous systems</li>
+<li>Symbolic, machine-learning, LLM-based, and hybrid architectures incorporating normative constraints</li>
+<li>Specification and verification of ethical properties, including fairness, transparency, explainability, and non-discrimination</li>
+<li>Representation and management of conflicts between legal requirements and ethical considerations</li>
+<li>Formal verification, testing, counterexample generation, and debugging of AI systems subject to normative requirements</li>
+<li>Algorithmic auditing and compliance monitoring</li>
+<li>Certification, standardisation, and labelling of intelligent systems</li>
+<li>Practical applications, governance, regulatory frameworks, and case studies</li>
+</ul>
+
+<h3><b>Joint Topics</b></h3>
+<ul>
+<li>End-to-end methods connecting norm extraction and autoformalisation with system compliance verification</li>
+<li>Propagation of uncertainty and interpretive choices from normative sources to system behaviour</li>
+<li>Traceability from source norms through formal representations to compliance evidence</li>
+<li>Shared benchmarks evaluating both representation faithfulness and system compliance</li>
+<li>Human oversight throughout the normative AI lifecycle</li>
+</ul>
+
+</div><div class="block" id="Submission">
+    <h2>Submissions</h2>
+<p>Contribution submissions should follow the JURIX format, i.e. all submissions should be formatted using the styles and guidelines in the IOS Press Instructions for Authors <a href="https://www.iospress.com/book-article-instructions">https://www.iospress.com/book-article-instructions</a> and prepared for single-blind peer review. Submissions must comply with Sage’s ethics policies, including its artificial intelligence policy <a href="https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy">https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy</a>.</p>
+<p>VLE-LEGATO worskshop welcomes two categories of contributions : long (10 pages) and short (5 pages). Descriptions of preliminary results or innovative ideas are strongly encouraged. The papers, together with a summary of the discussion, will be submitted for publication in the CEUR-WS.org proceedings.</p>
+
+<p>Authors should submit their contribution on the track they would like to present their work:</p>
+<ul>
+<li>Contributions for the <b>LEGATO track</b> should be submitted on: <strong>To be announced</strong></li>
+<li>Contributions for the <b>VLE track</b> should be submitted on: <a href="https://easychair.org/conferences/?conf=vle26">https://easychair.org/conferences/?conf=vle26</a></li>
+</ul>
+	
 <div class="block" id="Workshop">
 <h2>Workshop Oganizers</h2>
 <p>
-Ken Satoh, Center for Juris-Informatics, ROIS-DS, Japan 
+Ken Satoh, Center for Juris-Informatics, ROIS-DS
 <br>
-Georg Borges, Saarland University, Germany
+Grégory Bonnet, GREYC, Université de Caen Normandie
 <br>
-Hannes Westermann, Maastricht University, The Netherlands
+Jean-Gabriel Ganascia, LIP6, Sorbonne Université
 <br>
-May Myo Zin, Center for Juris-Informatics, ROIS-DS, Japan 
+Thomas M. Powers, CSEPP, University of Delaware
+<br>
+Nils Holzenberger, Télécom Paris
+<br>
+Georg Borges, Saarland University
+<br>
+May Myo Zin, Center for Juris-Informatics, ROIS-DS
+<br>
+Wachara Fungwacharakorn, Center for Juris-Informatics, ROIS-DS
 <br>
 </p>
 </div>
@@ -517,35 +592,43 @@ May Myo Zin, Center for Juris-Informatics, ROIS-DS, Japan
 <div class="block" id="PCmember">
 <h2>Program Committee Members</h2>
 <p>
-Akira Shimazu, Japan Advanced Institute of Science and Technology, Japan<br>
-Adrian Paschke, Frie Universität Berlin, Germany<br>
-Michał Araszkiewicz, Jagiellonian University, Poland<br>
-Anelia Kurteva, Univerity of Birmingham, UK<br>
-Satoshi	Tojo, Asia University, Japan<br>
-Guido Governatori, Central Queensland University, Australia<br>
-Makoto Nakamura, Niigata Institute of Technology, Japan<br>
-Katsumi	Nitta, Center for Juris-Informatics, ROIS-DS, Japan<br>
-Adam Wyner, Univesity of Swansea, UK<br>
-Nguyen Le Minh, Japan Advanced Institute of Science and Technology, Japan<br>
-Teeradaj Racharak, Tohoku University, Japan<br>
-Davide Liga, University of Luxembourg, Luxembourg<br>
-Tran Vu Duc, Japan Advanced Institute of Science and Technology, Japan<br>
-Wachara Funwacharakorn, Center for Juris-Informatics, ROIS-DS, Japan<br>
-María Navas Loro, Universidad Politécnica de Madrid, Spain<br>
-Yuntao Kong, Center for Juris-Informatics, ROIS-DS, Japan<br>
-Ha-Thanh Nguyen, Research and Development Center for LLMs, NII, Japan<br>
-Minh Phuong Nguyen, Japan Advanced Institute of Science and Technology, Japan<br>
-Livio Robaldo, Swansea University, UK<br>
-Sabine Wehnert, Otto von Guericke University Magdeburg, Germany<br>
-Aye	Aye Mar, Japan Advanced Institute of Science and Technology, Japan<br>
-Xue Jieying, Center for Juris-Informatics, ROIS-DS, Japan<br>
-Su Myat Noe, Research and Development Center for LLMs, NII, Japan<br>
-Diogo Sasdelli, University for Continuing Education Krems, Austria<br>
+Adam Wyner, Swansea University<br>
+Michał Araszkiewicz, Jagiellonian University<br>
+Gauvain Bourgne, Sorbonne Université<br>
+Yufan Cai, National University of Singapore<br>
+Céline Castets-Renard, University of Luxembourg<br>
+Paul Egré, IRL CROSSING, CNRS<br>
+Jessica Eynard, Université Toulouse Capitole<br>
+Randy Goebel, University of Alberta<br>
+Guido Governatori, Central Queensland University<br>
+Hiroshi Hosobe, Hosei University<br>
+Zhe Hou, Griffith University<br>
+Benjamin Icard, Sorbonne Université<br>
+Yuntao Kong, Center for Juris-Informatics<br>
+Anelia Kurteva, University of Birmingham<br>
+Davide Liga, University of Luxembourg<br>
+Emiliano Lorini, IRIT, CNRS<br>
+Jean-Guy Mailly, Université Toulouse Capitole<br>
+Makoto Nakamura, Niigata Institute of Technology<br>
+Luis Gustavo Nardin, IMT Mines Saint-Étienne<br>
+María Navas-Loro, Universidad Politécnica de Madrid<br>
+Ha-Thanh Nguyen, VinUniversity<br>
+Le-Minh Nguyen, Japan Advanced Institute of Science and Technology<br>
+Minh-Phuong Nguyen (Japan Advanced Institute of Science and Technology<br>
+Katsumi Nitta, Center for Juris-Informatics<br>
+Livio Robaldo, Swansea University<br>
+Galileo Sartor, Swansea University<br>
+Giovanni Sartor, University of Bologna<br>
+Diogo Campos Sasdelli, University for Continuing Education Krems<br>
+Giovanni Sileno, University of Amsterdam<br>
+Satoshi Tojo, Asia University<br>
+Sabine Wehnert, Ruhr University Bochum & Otto von Guericke University Magdeburg<br>
+Vu Duc Tran, Japan Advanced Institute of Science and Technology<br>
 </p>
 </div>
 
          <p>For any inquiry concerning the workshop, please send it to "maymyozin@nii.ac.jp"<br>
-         <p> LLN2FR home page  <a href="https://jurisinformaticscenter.github.io/NLL2FR2025/">https://jurisinformaticscenter.github.io/NLL2FR2025/ </a> 
+         <p> VLE-LEGATO home page  <a href="https://jurisinformaticscenter.github.io/VLE-LEGATO2026/">https://jurisinformaticscenter.github.io/VLE-LEGATO2026/</a> 
           </div>
         <p class="pageTop"><a href="#pageTop">Back To Top</a></p>
         
