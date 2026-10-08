@@ -26,14 +26,15 @@ a:hover{
 }
 .wrapper{
 	border-top:solid 12px #4B0082/*#ff642e*/;
-	width: 800px;
+	width: 852px;
 	margin:auto;
 	margin-top:20px;
 	margin-bottom:20px;
 }
 
+
 .block{
-	margin-bottom:3em;
+	margin-bottom:2em;
 }
 .block dl{
 	margin-left:0;	
@@ -64,7 +65,10 @@ a:hover{
 	_margin-left:0px;
 }
 .content h1{
-	font-size:2.3em;
+	font-size:2.15em;
+    text-align: justify;
+    line-height: 1.2;
+    margin-bottom: 1.2;
 }
 
 .navi{ padding:16px;}
@@ -160,6 +164,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 	margin-top:10px;*/
 	
 }
+
+.workshop-subtitle {
+    display: block;
+    font-size: 0.6em;
+    font-weight: normal;
+    margin-top: 8px;
+}
+
 .pageTop{
 	text-align:justify;	
 }
