@@ -20,13 +20,13 @@ a:hover{
 }
 .inner{
 	margin:auto; /* center in viewport */
-	width: 850px; /* fix page width */
+	width: 900px; /* fix page width */
 	border:solid 1px #cbcbcb;
 	border-top:none;
 }
 .wrapper{
 	border-top:solid 12px #4B0082/*#ff642e*/;
-	width: 852px;
+	width: 902px;
 	margin:auto;
 	margin-top:20px;
 	margin-bottom:20px;
